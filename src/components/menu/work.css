@@ -1,0 +1,12 @@
+.img{
+    width:50%;
+}
+.hv:hover{
+    color:rgba(249, 249, 35, 0.937);
+}
+.pad{
+    padding:3px;
+    left:100%;
+    text-align:end;
+    float:right;
+}
