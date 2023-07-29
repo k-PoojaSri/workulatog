@@ -5,6 +5,7 @@ import secureicon from './secureicon.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 export function Loginpage(){
     return(
         <>
@@ -32,7 +33,7 @@ export function Loginpage(){
                     </div>
                     <br/>
                     <div className=" col-lg-5 mx-auto">
-                        <button type="button" className="btn btn-outline-primary btn_login col-lg-12">LOGIN</button>
+                        <Link to='/admin'><button type="button" className="btn btn-outline-primary btn_login col-lg-12">LOGIN</button></Link>
                     </div>
                    <br/>
                    <p>(or)</p>
