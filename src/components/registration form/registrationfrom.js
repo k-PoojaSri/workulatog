@@ -8,6 +8,7 @@ export function Registationfrom(){
  
   function form_validation(){
     var F_name=document.getElementById("Fname").value
+    
     var L_name=document.getElementById("Lname").value
     var mail=document.getElementById("mail").value
     var phone=document.getElementById("phone").value
