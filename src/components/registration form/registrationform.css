@@ -1,0 +1,26 @@
+.Reg_bg{
+    background-image: linear-gradient(to right, rgb(39, 39, 233) ,rgb(184, 184, 228));
+    padding: 5%;
+}
+.input_box{
+    border: none;
+    outline: none;
+}
+.reg_br{
+    border-radius: 50px;
+}
+ .border_line{
+    border: 1px solid blue;
+    border-radius: 20px;
+ }
+ .form_shadow{
+    border-radius: 50px;
+    border: 2px solid rgb(25, 27, 129);
+    box-shadow: 5px 10px #8ba4e9;
+ }
+ .btn_bg{
+   border: 1px solid black;
+   margin-bottom: 2%;
+   margin-left: 2%;
+ }
+ 

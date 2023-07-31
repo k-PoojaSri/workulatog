@@ -22,7 +22,7 @@ export function Admin(){
         <Link class="nav-link" to='/'><h6 className="hv">Admin</h6></Link>
       </li>
       <li class="nav-item">
-      <Link class="nav-link" to='/admin'><h6 className="hv">Add Users</h6></Link>
+      <Link class="nav-link" to='/registration form/Registationfrom'><h6 className="hv">Add Users</h6></Link>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle " href="#" role="button" data-toggle="dropdown" aria-expanded="false">
