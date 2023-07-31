@@ -14,9 +14,9 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={[<Updateusedt/>]}/>
-      <Route path='/' element={[<Loginpage/>]}/>
+      {/* <Route path='/' element={[<Loginpage/>]}/>
       <Route path='/admin' element={[<Admin/>]}/>
-      <Route path='/client' element={[<Client/>]}/>
+      <Route path='/client' element={[<Client/>]}/> */}
 
     </Routes>
     </BrowserRouter>
