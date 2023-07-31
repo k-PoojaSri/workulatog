@@ -1,8 +1,8 @@
-.back-img-login{
+.back_img_login{
     background-image: linear-gradient(to right, rgb(39, 39, 233) ,rgb(184, 184, 228));
     min-height:100vh;
 }
-.content-div{
+.content_div{
     border-radius: 20px;
 }
 .fclr{

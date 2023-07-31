@@ -19,6 +19,11 @@ function App() {
       <Route path='/admin' element={[<Admin/>]}/>
       <Route path='/client' element={[<Client/>]}/>
       <Route path='/registration form/Registationfrom' element={[<Registationfrom/>]}/>
+      <Route path='/' element={[<Updateusedt/>]}/>
+      {/* <Route path='/' element={[<Loginpage/>]}/>
+      <Route path='/admin' element={[<Admin/>]}/>
+      <Route path='/client' element={[<Client/>]}/> */}
+
     </Routes>
     </BrowserRouter>
     </>

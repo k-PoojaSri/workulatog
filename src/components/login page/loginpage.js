@@ -9,15 +9,16 @@ import { Link } from "react-router-dom";
 export function Loginpage(){
     return(
         <>
-        <div className="back-img-login pt-3">
+        <div className="back_img_login pt-3">
             <h1 className="text-center text-white">wor<i><span className="fclr">K</span></i>ulator<i><span className=" fclr">G</span></i></h1>
-            <div className="bg-light mx-auto container-fluid row col-lg-11 content-div">
-                <div className="col-lg-6 mx-auto ">
+            <div className="bg-light mx-auto container row  content_div">
+                <div className="col-lg-6">
                     <img src={kgisllogo} className="col-lg-10 mt-2"/>
                     <img src={secureicon} className="col-lg-7 secureicon"/>
                 </div>
                
-                <div className="col-lg-5 col-12 col-md-9 text-center mx-auto form-bg p-1 my-5">
+               <form className="col-lg-6 ">
+                <div className="col-lg-10 col-sm-10 col-md-9 text-center mx-auto form-bg p-1 my-5">
                     <br/>
                     <h1>Login</h1>
                     <br/>
@@ -47,6 +48,7 @@ export function Loginpage(){
                         <a href="#">Create Your Account</a>
                     </div>
                 </div>
+                </form>
             </div>
         </div>
         </>
